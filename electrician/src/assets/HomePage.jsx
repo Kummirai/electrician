@@ -10,7 +10,7 @@ export default function HomePage() {
       style={{
         backgroundImage: `url(${heroImage})`,  
         backgroundSize: "cover",
-        backgroundPosition: "left",
+        backgroundPosition: "left top",
         backgroundAttachment: "fixed",  
       }}
     >
