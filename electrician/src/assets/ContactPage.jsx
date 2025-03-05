@@ -18,9 +18,9 @@ export default function ContactPage() {
 
         <h3 className="h4 mb-3">Business Hours</h3>
         <ul className="list-unstyled">
-          <li>Monday - Friday: 9:00 AM - 6:00 PM</li>
-          <li>Saturday: 10:00 AM - 4:00 PM</li>
-          <li>Sunday: Closed</li>
+          <li>Monday - Friday: 6:00 AM - 6:00 PM</li>
+          <li>Saturday: Closed</li>
+          <li>Sunday: 6:00 AM - 4:00 PM</li>
         </ul>
 
         <h3 className="h4 mb-3">Send Us a Message</h3>
