@@ -2,10 +2,10 @@ import React from "react";
 
 export default function ContactPage() {
   return (
-    <div className="min-h-screen bg-gray-100 p-6 text-center flex flex-col items-center">
-      <h2 className="text-3xl font-bold">Contact Us</h2>
-      <p className="text-gray-600 mt-4 max-w-lg">
-        Call us at <span className="font-semibold">(123) 456-7890</span> or email us at <span className="font-semibold">info@electricalservices.com</span>
+    <div className="min-vh-100 bg-light p-4 text-center d-flex flex-column align-items-center">
+      <h2 className="display-4 font-weight-bold">Contact Us</h2>
+      <p className="text-secondary mt-4 mx-auto" style={{ maxWidth: '600px' }}>
+        Call us at <span className="font-weight-semibold">(123) 456-7890</span> or email us at <span className="font-weight-semibold">info@electricalservices.com</span>
       </p>
     </div>
   );
