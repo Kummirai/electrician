@@ -4,6 +4,7 @@ import { FaBolt, FaPhoneAlt, FaTools } from "react-icons/fa";
 import serviceImage from "./images/service-image.webp";
 import inspectImage from "./images/inspect-image.webp";
 import fixImage from "./images/fix-image.webp";
+import Footer from "./Footer";
 
 export default function ServicesPage() {
   return (
@@ -163,8 +164,6 @@ export default function ServicesPage() {
     </div>
   </div>
 </section>
-
-
     </div>
   );
 }
