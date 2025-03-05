@@ -14,8 +14,8 @@ export default function HomePage() {
         backgroundAttachment: "fixed",  
       }}
     >
-      <div className="container text-center">
-        <h1 className="display-4 font-weight-bold text-dark">Welcome to Reliable Electrician Services</h1>
+      <div className="container text-center text-bg-dark p-3">
+        <h1 className="display-4 font-weight-bold text-white">Welcome to Reliable Electrician Services</h1>
         <p className="text-white-50 mt-3 mx-auto" style={{ maxWidth: "600px" }}>
           Professional, fast, and reliable electrical services for homes and businesses.
         </p>
