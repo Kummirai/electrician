@@ -65,8 +65,6 @@ export default function AboutPage() {
           <img src={communityImage} alt="Community Involvement" className="img-fluid rounded shadow-lg mb-4" />
         </div>
       </div>
-
-      {/* Sustainability & Innovation Section */}
       <h3 className="h5 text-primary mb-4">Sustainability & Innovation</h3>
       <div className="row align-items-center mb-5">
         <div className="col-md-6">
