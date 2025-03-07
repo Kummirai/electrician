@@ -10,14 +10,14 @@ export default function HomePage() {
       style={{
         backgroundImage: `url(${heroImage})`,  
         backgroundSize: "cover",
-        backgroundPosition: "left top",
+        backgroundPosition: "left",
         backgroundAttachment: "fixed",  
       }}
     >
-      <div className="container text-center text-bg-dark p-3">
-        <h1 className="display-4 font-weight-bold text-white">Welcome to Reliable Electrician Services</h1>
+      <div className="container text-center">
+        <h1 className="fs-1 font-weight-bold text-white">Welcome to Kueps</h1>
         <p className="text-white-50 mt-3 mx-auto" style={{ maxWidth: "600px" }}>
-          Professional, fast, and reliable electrical services for homes and businesses.
+          From Power Outages To PC Glitches - We Fix It Al!.
         </p>
         <Link to="/contact">
           <Button className="mt-4 btn btn-primary px-4 py-2 rounded">Get a Quote</Button>

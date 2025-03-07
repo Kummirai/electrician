@@ -14,7 +14,7 @@ export default function ServicesPage() {
         <div className="col">
           <Card className="h-100">
             <CardContent className="p-4 text-center">
-              <img src={serviceImage} alt="Emergency Repairs" className="w-100 h-40 object-cover rounded-lg" />
+              <img src={serviceImage} alt="Emergency Repairs" className="w-100  object-cover rounded-lg" style={{height: "272px", objectFit : "cover" }} />
               <FaBolt className="text-primary display-4 mt-4" />
               <h2 className="h5 font-weight-semibold mt-4">Emergency Repairs</h2>
               <p className="text-muted mt-2">Fast and reliable emergency electrical repairs available 24/7.</p>
@@ -36,7 +36,7 @@ export default function ServicesPage() {
         <div className="col">
           <Card className="h-100">
             <CardContent className="p-4 text-center">
-              <img src={fixImage} alt="Installations & Upgrades" className="w-100 h-40 object-cover rounded-lg" />
+              <img src={fixImage} alt="Installations & Upgrades" className="w-100 h-40 object-cover rounded-lg" style={{height: "272px", objectFit : "cover" }} />
               <FaTools className="text-primary display-4 mt-4" />
               <h2 className="h5 font-weight-semibold mt-4">Installations & Upgrades</h2>
               <p className="text-muted mt-2">Professional installation of wiring, panels, and more.</p>
@@ -58,7 +58,7 @@ export default function ServicesPage() {
         <div className="col">
           <Card className="h-100">
             <CardContent className="p-4 text-center">
-              <img src={inspectImage} alt="Free Consultation" className="w-100 h-40 object-cover rounded-lg" />
+              <img src={inspectImage} alt="Free Consultation" className="w-100 h-40 object-cover rounded-lg" style={{height: "272px", objectFit : "cover" }} />
               <FaPhoneAlt className="text-primary display-4 mt-4" />
               <h2 className="h5 font-weight-semibold mt-4">Free Consultation</h2>
               <p className="text-muted mt-2">Contact us today for a free quote and expert advice.</p>
@@ -77,61 +77,54 @@ export default function ServicesPage() {
       </section>
       <div className="text-center mt-5">
 </div>
-
-<section className="container mt-5">
-  <h2 className="text-center display-4 font-weight-bold mb-5">What Our Clients Say</h2>
-  <div className="row g-4">
-    <div className="col-md-4">
-      <Card className="p-4 text-center shadow-sm border-light rounded">
-        <blockquote className="blockquote display-1 fs-6 p-2">
-          <p className="mb-0">"Reliable Electrician Services did an amazing job. Quick response and professional service!"</p>
-          <footer className="blockquote-footer mt-3">John Doe, Homeowner</footer>
-        </blockquote>
-      </Card>
-    </div>
-    <div className="col-md-4">
-      <Card className="p-4 text-center shadow-sm border-light rounded">
-        <blockquote className="blockquote display-1 fs-6 p-2">
-          <p className="mb-0">"We highly recommend them for any commercial electrical work. Very efficient!"</p>
-          <footer className="blockquote-footer mt-3">Jane Smith, Business Owner</footer>
-        </blockquote>
-      </Card>
-    </div>
-    <div className="col-md-4">
-      <Card className="p-4 text-center shadow-sm border-light rounded">
-        <blockquote className="blockquote display-1 fs-6 p-2">
-          <p className="mb-0">"The team handled our industrial electrical needs with great attention to detail. Highly professional."</p>
-          <footer className="blockquote-footer mt-3">Mike Johnson, Industrial Facility Manager</footer>
-        </blockquote>
-      </Card>
-    </div>
-  </div>
-</section>
-
 <section className="container mt-5">
   <h2 className="text-center display-4 font-weight-bold">FAQs</h2>
   <div className="accordion mt-4" id="faqAccordion">
     <div className="accordion-item">
       <h2 className="accordion-header" id="headingOne">
         <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          What should I do in case of an electrical emergency?
+        1. What types of electrical services do you offer?
         </button>
       </h2>
       <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
         <div className="accordion-body">
-          In case of an electrical emergency, immediately call our 24/7 emergency line. Avoid any further electrical interference until the issue is handled.
+        We offer a wide range of electrical services, including residential, commercial, such as installations, repairs, wiring, lighting, and emergency services.
         </div>
       </div>
     </div>
     <div className="accordion-item">
       <h2 className="accordion-header" id="headingTwo">
         <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Do you offer free estimates?
+        2. Do you offer emergency electrical services?
         </button>
       </h2>
       <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
         <div className="accordion-body">
-          Yes, we offer free on-site evaluations and estimates for all electrical services.
+        Yes, we offer 24/7 emergency electrical services to help with any urgent issues you may face, whether it's a power outage, faulty wiring, or electrical hazards.
+        </div>
+      </div>
+    </div>
+    <div className="accordion-item">
+      <h2 className="accordion-header" id="headingTwo">
+        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        3. How much do your services cost?
+        </button>
+      </h2>
+      <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+        <div className="accordion-body">
+        Our pricing is transparent and competitive. We offer free estimates and will provide you with a detailed quote before starting any work. There are no hidden fees.
+        </div>
+      </div>
+    </div>
+    <div className="accordion-item">
+      <h2 className="accordion-header" id="headingTwo">
+        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        4. Are you available for both residential and commercial work?
+        </button>
+      </h2>
+      <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+        <div className="accordion-body">
+        Yes, we offer electrical services for both residential and commercial clients, including wiring, repairs, maintenance, and installation of electrical systems.
         </div>
       </div>
     </div>
@@ -143,22 +136,22 @@ export default function ServicesPage() {
     <div className="col-md-4">
       <div className="card p-4 text-center mb-3">
         <i className="bi bi-award display-4 text-primary mb-3"></i>
-        <h3>Certified Professionals</h3>
-        <p>Our team is fully licensed and certified to handle any electrical job, large or small.</p>
+        <h3>Affordable & Transparent Pricing</h3>
+        <p>No hidden fees—just honest, upfront pricing! We provide cost-effective solutions without compromising on quality, so you get the best value for your money.</p>
       </div>
     </div>
     <div className="col-md-4">
       <div className="card p-4 text-center mb-3">
         <i className="bi bi-leaf display-4 text-primary mb-3"></i>
-        <h3>Eco-friendly Solutions</h3>
-        <p>We offer green energy solutions to make your home or business more energy-efficient.</p>
+        <h3> Experienced & Skilled Electricians</h3>
+        <p>We have a team of highly trained, licensed, and skilled electricians who ensure all work meets safety and quality standards. Your safety and satisfaction are our top priorities..</p>
       </div>
     </div>
     <div className="col-md-4">
       <div className="card p-4 text-center mb-3">
         <i className="bi bi-clock display-4 text-primary mb-3"></i>
-        <h3>Timely Service</h3>
-        <p>We pride ourselves on being punctual and completing projects on time, every time.</p>
+        <h3>Reliable & 24/7 Emergency Service</h3>
+        <p>We understand that electrical issues can happen anytime. That’s why we offer fast response times and 24/7 emergency services to keep your home or business</p>
       </div>
     </div>
   </div>
