@@ -144,7 +144,7 @@ export default function ServicesPage() {
       <div className="card p-4 text-center mb-3">
         <i className="bi bi-leaf display-4 text-primary mb-3"></i>
         <h3> Experienced & Skilled Electricians</h3>
-        <p>We have a team of highly trained, licensed, and skilled electricians who ensure all work meets safety and quality standards. Your safety and satisfaction are our top priorities..</p>
+        <p>We have a team of highly trained, and skilled electricians who ensure all work meets safety and quality standards. Your safety and satisfaction are our top priorities..</p>
       </div>
     </div>
     <div className="col-md-4">
