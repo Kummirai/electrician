@@ -17,9 +17,9 @@ export default function Navbar() {
         <li className="nav-item px-3">
           <Link className="nav-link" to="/services">Services</Link>
         </li>
-        <li className="nav-item px-3">
+        {/* <li className="nav-item px-3">
           <Link className="nav-link" to="/about">About</Link>
-        </li>
+        </li> */}
         <li className="nav-item px-3">
           <Link className="nav-link" to="/contact">Contact</Link>
         </li>
