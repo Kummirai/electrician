@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Button } from "./components/ui/Button";
-import heroImage from "./images/hero-image.jpg";
+import heroImage from "./images/hero-image.webp";
 import ServicesPage from "./ServicesPage";
 import ContactPage from "./ContactPage";
 
